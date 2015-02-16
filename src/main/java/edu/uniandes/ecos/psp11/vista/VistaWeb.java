@@ -101,7 +101,7 @@ public class VistaWeb {
         r.println("<tr>");
         r.println("</tr>");
         r.println("<td colspan=\"6\">");
-        r.println("<h4>Datos (X=LOC de clases, Y=Cantidad de métodos): </h4><label>" + puntos + "</label>");
+        r.println("<h4>Datos (X=Items, Y=Divisiones): </h4><label>" + puntos + "</label>");
         r.println("</td>");
         r.println("</table>");
         r.println("</body>");
@@ -116,8 +116,8 @@ public class VistaWeb {
         pw.println("<h1>Captura de datos</h1>");
         pw.write("<form  method=\"post\">\n"
                 + "<div><h2>Cálculo del tamaño relativo</h2></div> \n"
-                + "<div><label style=\"width:1500; display: inline-block;\" >LOC de clases:</label><input  style=\"width:300;\" title=\"Separe cada valor por coma\" type=\"text\" name=\"datosx\" id=\"datosx\"></div> \n"
-                + "<div><label style=\"width:1500; display: inline-block;\" >Número de métodos:</label><input  style=\"width:300;\" title=\"Separe cada valor por coma\" type=\"text\" name=\"datosy\" id=\"datosy\"</div> \n"
+                + "<div><label style=\"width:1500; display: inline-block;\" >Items:</label><input  style=\"width:300;\" title=\"Separe cada valor por coma\" type=\"text\" name=\"datosx\" id=\"datosx\"></div> \n"
+                + "<div><label style=\"width:1500; display: inline-block;\" >Divisiones:</label><input  style=\"width:300;\" title=\"Separe cada valor por coma\" type=\"text\" name=\"datosy\" id=\"datosy\"</div> \n"
                 + "<div><input id=\"btnCalcularEntrada\" name=\"btnCalcularEntrada\" type=\"submit\" value=\"Calcular\" text=\"La cantidad de valores debe coincidir en ambas cajas\"></div>\n"
                 + "</form> ");
         pw.write("</html>");

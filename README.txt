@@ -9,7 +9,7 @@ El informe se encuentra en la ruta \src\site\resourses de este proyecto.
 
 Fork del Proyecto:
 Para obtener este proyecto desde el repositorio GutHub, clone el proyecto con la siguiente URL:
-https://github.com/johnoso27/psp_11.git
+https://github.com/johnoso27/psp11.git
 
 Para ejecutar la aplicación desde el repositorio de Heroky, acceder a la siguiente URL:
 http://psp11-john.herokuapp.com/

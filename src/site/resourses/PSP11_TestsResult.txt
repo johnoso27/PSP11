@@ -1,0 +1,66 @@
+cd D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_31" cmd /c "\"\"C:\\Program Files\\NetBeans 8.0.2\\java\\maven\\bin\\mvn.bat\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.0.2\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=iso-8859-1 test\""
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building psp11 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-resources-plugin:2.5:resources (default-resources) @ psp11 ---
+[debug] execute contextualize
+Using 'iso-8859-1' encoding to copy filtered resources.
+Copying 1 resource
+
+--- maven-compiler-plugin:2.3.2:compile (default-compile) @ psp11 ---
+Nothing to compile - all classes are up to date
+
+--- maven-resources-plugin:2.5:testResources (default-testResources) @ psp11 ---
+[debug] execute contextualize
+Using 'iso-8859-1' encoding to copy filtered resources.
+skip non existing resourceDirectory D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1\src\test\resources
+
+--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ psp11 ---
+Nothing to compile - all classes are up to date
+
+--- maven-surefire-plugin:2.10:test (default-test) @ psp11 ---
+Surefire report directory: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.psp11.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running edu.uniandes.ecos.psp11.modelo.CalculadorTamanoRelativoTest
+Se adicionó el punto: X:18.0 Y:3.0
+Se adicionó el punto: X:18.0 Y:3.0
+Se adicionó el punto: X:25.0 Y:3.0
+Se adicionó el punto: X:31.0 Y:3.0
+Se adicionó el punto: X:37.0 Y:3.0
+Se adicionó el punto: X:82.0 Y:5.0
+Se adicionó el punto: X:82.0 Y:4.0
+Se adicionó el punto: X:87.0 Y:4.0
+Se adicionó el punto: X:89.0 Y:4.0
+Se adicionó el punto: X:230.0 Y:10.0
+Se adicionó el punto: X:85.0 Y:3.0
+Se adicionó el punto: X:87.0 Y:3.0
+Se adicionó el punto: X:558.0 Y:10.0
+Puntos de Test 1: [X:18.0 Y:3.0, X:18.0 Y:3.0, X:25.0 Y:3.0, X:31.0 Y:3.0, X:37.0 Y:3.0, X:82.0 Y:5.0, X:82.0 Y:4.0, X:87.0 Y:4.0, X:89.0 Y:4.0, X:230.0 Y:10.0, X:85.0 Y:3.0, X:87.0 Y:3.0, X:558.0 Y:10.0]
+Pruebas unitarias pasadas, los datos calculados de Test 1:
+Tamaño Relativo: 
+Muy Pequeno (VS)=4.395269124478685
+Pequeno (S)=8.508138249389225
+Mediano(M)=16.469620953940062
+Grande (L)=31.881053929269868
+Muy Grande(VL)=61.713721431934815
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 5.707s
+Finished at: Sun Feb 15 18:45:40 COT 2015
+Final Memory: 7M/105M
+------------------------------------------------------------------------

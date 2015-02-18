@@ -1,0 +1,92 @@
+D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building psp11 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ psp11 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ psp11 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ps
+p11 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Dropbox\UniversidadAndes\Proyectos
+Maven\psp1_1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ psp11
+ ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ psp11 ---
+[INFO] Surefire report directory: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp
+1_1\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.psp11.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running edu.uniandes.ecos.psp11.modelo.CalculadorTamanoRelativoTest
+Se adicion¾ el punto: X:18.0 Y:3.0
+Se adicion¾ el punto: X:18.0 Y:3.0
+Se adicion¾ el punto: X:25.0 Y:3.0
+Se adicion¾ el punto: X:31.0 Y:3.0
+Se adicion¾ el punto: X:37.0 Y:3.0
+Se adicion¾ el punto: X:82.0 Y:5.0
+Se adicion¾ el punto: X:82.0 Y:4.0
+Se adicion¾ el punto: X:87.0 Y:4.0
+Se adicion¾ el punto: X:89.0 Y:4.0
+Se adicion¾ el punto: X:230.0 Y:10.0
+Se adicion¾ el punto: X:85.0 Y:3.0
+Se adicion¾ el punto: X:87.0 Y:3.0
+Se adicion¾ el punto: X:558.0 Y:10.0
+Puntos de Test 1: [X:18.0 Y:3.0, X:18.0 Y:3.0, X:25.0 Y:3.0, X:31.0 Y:3.0, X:37.
+0 Y:3.0, X:82.0 Y:5.0, X:82.0 Y:4.0, X:87.0 Y:4.0, X:89.0 Y:4.0, X:230.0 Y:10.0,
+ X:85.0 Y:3.0, X:87.0 Y:3.0, X:558.0 Y:10.0]
+Pruebas unitarias pasadas, los datos calculados de Test 1:
+Tama±o Relativo:
+Muy Pequeno (VS)=4.395269124478685
+Pequeno (S)=8.508138249389225
+Mediano(M)=16.469620953940062
+Grande (L)=31.881053929269868
+Muy Grande(VL)=61.713721431934815
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING] Could not delete temp direcotry D:\Dropbox\UniversidadAndes\ProyectosM
+aven\psp1_1\target\surefire because Directory D:\Dropbox\UniversidadAndes\Proyec
+tosMaven\psp1_1\target\surefire unable to be deleted.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ psp11 ---
+[INFO] Building jar: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1\target\ps
+p11-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-dependency-plugin:2.4:copy-dependencies (copy-dependencies) @ p
+sp11 ---
+[INFO] jetty-io-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-util-7.6.0.v20120127.jar already exists in destination.
+[INFO] bcel-5.2.jar already exists in destination.
+[INFO] junit-3.8.1.jar already exists in destination.
+[INFO] jetty-servlet-7.6.0.v20120127.jar already exists in destination.
+[INFO] servlet-api-2.5.jar already exists in destination.
+[INFO] jetty-http-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-security-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-continuation-7.6.0.v20120127.jar already exists in destination.
+[INFO] jakarta-regexp-1.4.jar already exists in destination.
+[INFO] jetty-server-7.6.0.v20120127.jar already exists in destination.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.852 s
+[INFO] Finished at: 2015-02-15T18:47:11-05:00
+[INFO] Final Memory: 13M/167M
+[INFO] ------------------------------------------------------------------------
+D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1_1>
